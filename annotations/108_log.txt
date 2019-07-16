@@ -1,0 +1,2 @@
+You quit midway. Restart on file 286 by running: python annotate_diarization.py --511 --286 
+You quit midway. Restart on file 3746 by running: python annotate_diarization.py --511 --3746 
