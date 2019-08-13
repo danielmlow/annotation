@@ -5,13 +5,23 @@ Open terminal
 Go to folder annotation:
 ```cd ./path/to/annotation/```
 
-Follow these steps:
+To install, follow these steps:
+
 ```python -m venv env```
+
 ```source env/bin/activate```
+
 ```pip install -r requirements.txt```
 
+
+
 Run script in terminal:
+
+```source env/bin/activate```
+
 ```python annotate_diarization.py --511 --0```
+
+```deactivate```
 
 Instructions:
 ```>>> Who is speaking: i, p, b, n, r?``` 
@@ -33,7 +43,12 @@ Deactivate from virtual environment in terminal
 
 ---
 
+
+
 # Evaluate diarization on annotated interviewer (1) and random snippets from other interview (0)
+
+interviewer_classifier.py
+
 Once you obtain an annotation for fileX.wav, goal is to train classifier to detect interviewer I1 in fileX.wav
 Segment a different interview with different interviewer and speaker into wavs
 
